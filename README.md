@@ -1,5 +1,5 @@
 # Astrophysical Simulations Group 1
-Code for the N-body simulation.
+Code for the N-body simulation. These files are adapted from the main repository. All the files present in this folder, along with other files, can be found in the following github repository: https://github.com/sanderdemeyer/Astrofysische_Groep_1
 
 ## **`N_body_sim.cpp`**
 This is the final code for the N-body simulation. The units used in the simulations are:
