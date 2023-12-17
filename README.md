@@ -1,5 +1,5 @@
 # Astrophysical Simulations Group 1
-Code for the N-body simulation. These files are adapted from the main repository. All the files present in this folder, along with other files, can be found in the following github repository: https://github.com/sanderdemeyer/Astrofysische_Groep_1
+Code for the N-body simulation. All the files present in this folder, along with other files including scaling test and performance tests, can be found in the following github repository: https://github.com/sanderdemeyer/Astrofysische_Groep_1
 
 ## **`N_body_sim.cpp`**
 This is the final code for the N-body simulation. The units used in the simulations are:
@@ -102,7 +102,3 @@ Disclaimers:
     - The system loses energy upon each regularization. This means that the code is not fully correct.
     - when transform_distance = 0.0, this is equivalent to **`N_body_sim.cpp`** and works in 3D too.
     - The trajectories and energies are saved in the folders **`traj_reg`** and **`energy_reg`** respectively which are automatically created upon running the code.
-
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
