@@ -525,7 +525,7 @@ int get_driver_evaluations(std::string integrator) {
     std::vector<std::string> driver_evaluations_3 = {"Heun3", "Ralston3", "RK3", "Forest Ruth", "Yoshida 4", "Wray3", "SSPRK3"};
     std::vector<std::string> driver_evaluations_4 = {"RK4", "PEFRL", "3_over_8", "Ralston4"};
     std::vector<std::string> driver_evaluations_5 = {"IRK5"};
-    std::vector<std::string> driver_evaluations_6 = {"RK5"};
+    std::vector<std::string> driver_evaluations_6 = {"RK5", "RK45"};
     std::vector<std::string> driver_evaluations_7 = {"RK6", "RK5_wrong"};
     std::vector<std::string> driver_evaluations_10 = {"RK8"};
 
